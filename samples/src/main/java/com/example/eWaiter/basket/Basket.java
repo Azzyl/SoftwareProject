@@ -26,7 +26,7 @@ public class Basket {
     }
 
     public static void remove(String dishName) {
-        basket.remove(dishName);
+        basket.put(dishName, 0);
     }
 
     public static HashMap<String, Integer> getAll() {

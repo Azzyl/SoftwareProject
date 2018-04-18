@@ -1,6 +1,7 @@
 package com.example.eWaiter;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -55,12 +56,19 @@ public class InfoActivity extends AppCompatActivity {
     }
 
     private void drawText(ArrayList<String> dishes) {
+
+        Typeface font_ = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
+
         TextView edit0 = findViewById(R.id.textview0);
         edit0.setText(dishes.get(0));
         TextView edit1 = findViewById(R.id.textview1);
         edit1.setText(dishes.get(1));
         TextView edit2 = findViewById(R.id.textview2);
         edit2.setText(dishes.get(2));
+
+        edit0.setTypeface(font_);
+        edit1.setTypeface(font_);
+        edit2.setTypeface(font_);
     }
 
     public void addToBasket(View view) {
