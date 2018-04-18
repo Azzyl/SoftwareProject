@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.2] /Users/azori/.gradle/caches/transforms-1/files-1.1/qrcodereaderview-2.0.2.aar/3dd0b862e669635110aa241b5390e50b/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:design:26.1.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/47be33830392c6b482a5582c4b9b736e/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f395bcba24b26bdbdd973e2672eed0e7/AndroidManifest.xml:17:1-31:12
@@ -28,9 +28,9 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /Users/azori/.grad
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/94600701b18ce03460b9d1f0ca403893/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/97272cfa51cb084e10b62cb61872499b/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2015a5849fcc8923af3a5359bb2ce538/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml
@@ -58,7 +58,7 @@ ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/
 	android:name
 		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:10:19-67
 application
-ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:12:5-29:19
+ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:12:5-40:19
 MERGED from [com.android.support:design:26.1.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/47be33830392c6b482a5582c4b9b736e/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/47be33830392c6b482a5582c4b9b736e/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/azori/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f395bcba24b26bdbdd973e2672eed0e7/AndroidManifest.xml:25:5-29:19
@@ -109,12 +109,12 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/azori/.gradle/caches/t
 		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:13:9-35
 	android:theme
 		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:16:9-67
-activity#com.example.eWaiter.DecoderActivity
+activity#com.example.eWaiter.StartActivity
 ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:17:9-25:20
 	android:label
 		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:18:13-63
+		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:18:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -125,18 +125,26 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.eWaiter.DecoderActivity
+ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:26:9-35:20
+	android:name
+		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:26:19-50
 activity#com.example.eWaiter.CategoryActivity
-ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:26:9-73
+ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:36:9-54
 	android:name
-		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:26:19-70
+		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:36:19-51
 activity#com.example.eWaiter.DishActivity
-ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:27:9-69
+ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:37:9-50
 	android:name
-		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:27:19-66
+		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:37:19-47
 activity#com.example.eWaiter.InfoActivity
-ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:28:9-78
+ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:38:9-50
 	android:name
-		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:28:19-66
+		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:38:19-47
+activity#com.example.eWaiter.AmountActivity
+ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:39:9-61
+	android:name
+		ADDED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml:39:19-49
 uses-sdk
 INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/AndroidManifest.xml
