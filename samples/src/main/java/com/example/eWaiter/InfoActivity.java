@@ -1,7 +1,9 @@
 package com.example.eWaiter;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -54,6 +56,17 @@ public class InfoActivity extends AppCompatActivity {
         edit1.setText(dishes.get(1));
         TextView edit2 = findViewById(R.id.textview2);
         edit2.setText(dishes.get(2));
+    }
+
+    public void addToBasket(View view) {
+        Intent intent = new Intent(InfoActivity.this, AmountActivity.class);
+        intent.putExtra("dishName", dishName);
+        startActivity(intent);
+    }
+
+    public void openBasket(View view) {
+        Intent intent = new Intent(this, BasketActivity.class);
+        startActivity(intent);
     }
 
 }

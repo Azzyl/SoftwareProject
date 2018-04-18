@@ -36,7 +36,8 @@
         <activity android:name=".CategoryActivity" />
         <activity android:name=".DishActivity" />
         <activity android:name=".InfoActivity" />
-        <activity android:name=".AmountActivity"></activity>
+        <activity android:name=".AmountActivity" />
+        <activity android:name=".BasketActivity"></activity>
     </application>
 
 </manifest>

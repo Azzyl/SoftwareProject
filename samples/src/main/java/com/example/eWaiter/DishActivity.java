@@ -56,6 +56,7 @@ public class DishActivity extends AppCompatActivity {
             Button bt = new Button(this);
             bt.setText(item);
             bt.setId(i);
+            bt.setBackgroundResource(R.drawable.button);
             i++;
             bt.setOnClickListener(mGlobal_OnClickListener);
             bt.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT,

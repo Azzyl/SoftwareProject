@@ -124,6 +124,10 @@
         "source": "/Users/azori/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f395bcba24b26bdbdd973e2672eed0e7/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/res/merged/debug/drawable_button.xml.flat",
+        "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/res/drawable/button.xml"
+    },
+    {
         "merged": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
         "source": "/Users/azori/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f395bcba24b26bdbdd973e2672eed0e7/res/layout/abc_action_mode_close_item_material.xml"
     },
@@ -614,6 +618,10 @@
     {
         "merged": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
         "source": "/Users/azori/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/47be33830392c6b482a5582c4b9b736e/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/res/merged/debug/layout_activity_basket.xml.flat",
+        "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/src/main/res/layout/activity_basket.xml"
     },
     {
         "merged": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",

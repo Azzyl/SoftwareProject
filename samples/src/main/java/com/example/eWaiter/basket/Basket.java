@@ -29,9 +29,15 @@ public class Basket {
         basket.remove(dishName);
     }
 
-    public static String[] getAll() {
-        String[] dishList = new String[0];
-        dishList = (String[]) basket.keySet().toArray();
-        return dishList;
+    public static HashMap<String, Integer> getAll() {
+        return basket;
     }
+//
+//    public static int getsize() {
+//        int n = 0;
+//        for (String item: basket.keySet()) {
+//            n += basket.get(item);
+//        }
+//        return n;
+//    }
 }
