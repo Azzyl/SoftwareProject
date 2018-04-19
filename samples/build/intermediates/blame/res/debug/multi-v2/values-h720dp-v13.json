@@ -14,6 +14,36 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\Code\\AndroidStudioProjects\\QRCodeReaderView\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f395bcba24b26bdbdd973e2672eed0e7\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\Desktop\\software project\\SoftwareProject\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\523d06ec8748ec99b8f3de32be7ecfa6\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
         }
     ]
 }

@@ -1,10 +1,42 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\Code\\AndroidStudioProjects\\QRCodeReaderView\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f395bcba24b26bdbdd973e2672eed0e7\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "/Users/azori/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f395bcba24b26bdbdd973e2672eed0e7/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\Desktop\\software project\\SoftwareProject\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\523d06ec8748ec99b8f3de32be7ecfa6\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

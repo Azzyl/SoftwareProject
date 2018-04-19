@@ -40,7 +40,7 @@ public class DishActivity extends AppCompatActivity {
         db.child("RestName").child(restName).child("Menu").child(category).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                for (DataSnapshot categorySnapshot: dataSnapshot.getChildren()) {
+                for (DataSnapshot categorySnapshot : dataSnapshot.getChildren()) {
                     String entry = categorySnapshot.getKey();
                     dishes.add(entry);
                 }
@@ -57,7 +57,7 @@ public class DishActivity extends AppCompatActivity {
     private void drawButtons(ArrayList<String> dishes) {
         ViewGroup linearLayout = findViewById(R.id.linearlayout2);
         int i = 0;
-        for (String item: dishes) {
+        for (String item : dishes) {
             Button bt = new Button(this);
             bt.setText(item);
             bt.setId(i);

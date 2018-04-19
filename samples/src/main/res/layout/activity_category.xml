@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.eWaiter.CategoryActivity">
 
+    <ImageView
+        android:id="@+id/imgPlaylistItemBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:maxHeight="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back1" />
+
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/scroll"
@@ -14,10 +23,9 @@
         android:fillViewport="true">
         <LinearLayout
             android:id="@+id/linearlayout1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="@drawable/back1">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

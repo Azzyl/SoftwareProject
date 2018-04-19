@@ -1,6 +1,70 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\Code\\AndroidStudioProjects\\QRCodeReaderView\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f395bcba24b26bdbdd973e2672eed0e7\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\72ee70cee11371372ae9940bc824c77f\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\Desktop\\software project\\SoftwareProject\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\523d06ec8748ec99b8f3de32be7ecfa6\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\b1dc1a8e4d6747f5bf1ae23988ac609f\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
