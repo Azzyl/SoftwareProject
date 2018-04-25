@@ -1,6 +1,7 @@
 package com.example.eWaiter;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -55,6 +57,16 @@ public class CategoryActivity extends AppCompatActivity {
     private void drawButtons(ArrayList<String> cats) {
         ViewGroup linearLayout = findViewById(R.id.linearlayout1);
         int i = 0;
+
+        Button btn = new Button(this);
+        LinearLayout.LayoutParams params1 = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        btn.setLayoutParams(params1);
+        btn.setBackgroundResource(R.drawable.ic_shopping_basket_black_24dp);
+        btn.setOnClickListener(basketOnClickListener);
+
+        linearLayout.addView(btn);
+
         for (String item: cats) {
             Button bt = new Button(this);
             bt.setText(item);
@@ -74,6 +86,13 @@ public class CategoryActivity extends AppCompatActivity {
             Intent intent = new Intent(CategoryActivity.this, DishActivity.class);
             intent.putExtra("category", text);
             intent.putExtra("BD", restName);
+            startActivity(intent);
+        }
+    };
+
+    final View.OnClickListener basketOnClickListener = new View.OnClickListener() {
+        public void onClick(final View v) {
+            Intent intent = new Intent(CategoryActivity.this, BasketActivity.class);
             startActivity(intent);
         }
     };

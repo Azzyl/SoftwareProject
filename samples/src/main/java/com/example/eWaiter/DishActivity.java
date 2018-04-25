@@ -57,6 +57,15 @@ public class DishActivity extends AppCompatActivity {
     private void drawButtons(ArrayList<String> dishes) {
         ViewGroup linearLayout = findViewById(R.id.linearlayout2);
         int i = 0;
+
+        Button btn = new Button(this);
+        LinearLayout.LayoutParams params1 = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        btn.setLayoutParams(params1);
+        btn.setBackgroundResource(R.drawable.ic_shopping_basket_black_24dp);
+        btn.setOnClickListener(basketOnClickListener);
+        linearLayout.addView(btn);
+
         for (String item : dishes) {
             Button bt = new Button(this);
             bt.setText(item);
@@ -77,6 +86,13 @@ public class DishActivity extends AppCompatActivity {
             intent.putExtra("category", category);
             intent.putExtra("BD", restName);
             intent.putExtra("Dish", text);
+            startActivity(intent);
+        }
+    };
+
+    final View.OnClickListener basketOnClickListener = new View.OnClickListener() {
+        public void onClick(final View v) {
+            Intent intent = new Intent(DishActivity.this, BasketActivity.class);
             startActivity(intent);
         }
     };

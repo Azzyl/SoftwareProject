@@ -1,40 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\Code\\AndroidStudioProjects\\QRCodeReaderView\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
-            "map": [
-                {
-                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f395bcba24b26bdbdd973e2672eed0e7\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\azori\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\47be33830392c6b482a5582c4b9b736e\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "328",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "505"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/samples/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
@@ -64,40 +30,6 @@
                         "startOffsets": "55,125,189,260",
                         "endColumns": "69,63,70,67",
                         "endOffsets": "120,184,255,323"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\Desktop\\software project\\SoftwareProject\\samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
-            "map": [
-                {
-                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\523d06ec8748ec99b8f3de32be7ecfa6\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "/Users/azori/Code/AndroidStudioProjects/QRCodeReaderView/C:\\Users\\EternalLuck\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\35b63083970a0a18db14f3a1e5d40b37\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "328",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "505"
                     }
                 }
             ]

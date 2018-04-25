@@ -27,4 +27,30 @@
             app:layout_constraintTop_toTopOf="parent">
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/background_light"
+        android:onClick="call"
+        android:text="Call a waiter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/background_light"
+        android:onClick="checkout"
+        android:text="Checkout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="16dp" />
+
 </android.support.constraint.ConstraintLayout>

@@ -9,13 +9,13 @@ package com.google.android.gms;
 public final class R {
     public static final class id {
         public static final int auto = 0x7f080020;
-        public static final int center = 0x7f08002d;
-        public static final int none = 0x7f080070;
-        public static final int normal = 0x7f080071;
-        public static final int radio = 0x7f08007f;
-        public static final int text = 0x7f0800ac;
-        public static final int text2 = 0x7f0800ad;
-        public static final int wrap_content = 0x7f0800c9;
+        public static final int center = 0x7f08002f;
+        public static final int none = 0x7f080074;
+        public static final int normal = 0x7f080075;
+        public static final int radio = 0x7f080083;
+        public static final int text = 0x7f0800b0;
+        public static final int text2 = 0x7f0800b1;
+        public static final int wrap_content = 0x7f0800cd;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f090007;

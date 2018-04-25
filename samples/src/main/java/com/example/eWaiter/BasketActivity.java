@@ -1,24 +1,18 @@
 package com.example.eWaiter;
 
 import android.annotation.SuppressLint;
-import android.app.ActionBar;
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.support.constraint.ConstraintLayout;
+import android.graphics.Typeface;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
-import android.util.TypedValue;
-import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.ViewManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.TableLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.eWaiter.basket.Basket;
 
@@ -45,6 +39,8 @@ public class BasketActivity extends AppCompatActivity {
 
                 LinearLayout layout = new LinearLayout(this);
                 layout.setOrientation(LinearLayout.HORIZONTAL);
+                Typeface font_ = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
+
 
                 TextView tv = new TextView(this);
                 tv.setId(tvID);
@@ -57,6 +53,8 @@ public class BasketActivity extends AppCompatActivity {
                 params0.width = dp;
                 params0.weight = 4.0f;
                 tv.setLayoutParams(params0);
+                tv.setTypeface(font_);
+                tv.setTextSize(25);
 
                 TextView am = new TextView(this);
                 am.setId(amID);
@@ -66,10 +64,13 @@ public class BasketActivity extends AppCompatActivity {
                         LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
                 params1.weight = 1.0f;
                 am.setLayoutParams(params1);
+                am.setTypeface(font_);
+                am.setTextSize(25);
 
                 Button bt = new Button(this);
                 bt.setId(btID);
                 bt.setText("remove");
+                bt.setBackgroundResource(R.drawable.button_transparent);
                 btID++;
                 bt.setOnClickListener(bOnClickListener);
                 LinearLayout.LayoutParams params2 = new LinearLayout.LayoutParams(
@@ -87,6 +88,15 @@ public class BasketActivity extends AppCompatActivity {
         }
     }
 
+    public void call(View view) {
+        Snackbar mySnackbar = Snackbar.make(view, "Waiter was called", Snackbar.LENGTH_SHORT);
+        mySnackbar.show();
+    }
+
+    public void checkout(View view) {
+        Intent intent = new Intent(BasketActivity.this, CheckoutActivity.class);
+        startActivity(intent);
+    }
 
     final View.OnClickListener bOnClickListener = new View.OnClickListener() {
         public void onClick(final View v) {

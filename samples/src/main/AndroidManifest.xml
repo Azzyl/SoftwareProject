@@ -37,6 +37,7 @@
         <activity android:name=".DishActivity" />
         <activity android:name=".InfoActivity" />
         <activity android:name=".AmountActivity" />
+        <activity android:name=".CheckoutActivity" />
         <activity android:name=".BasketActivity"></activity>
     </application>
 
